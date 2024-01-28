@@ -1,0 +1,27 @@
+body {
+    min-height: 100ch;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.header {
+    background-color: darkgray;
+    padding: 30px;
+}
+
+.header__link {
+    color: aliceblue;
+}
+
+.hero__title {
+    text-align: center;
+}
+
+.footer {
+    background-color: blue;
+    padding: 5px;
+}
